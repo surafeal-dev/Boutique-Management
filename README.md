@@ -56,11 +56,6 @@ dotnet run
 - **👥 Customer Database** – Store client details and purchase records.
 - **💾 MySQL Integration** – Secure and efficient data storage.
 
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
 
 ---
 
