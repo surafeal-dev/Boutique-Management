@@ -1,56 +1,67 @@
-# **Boutique Management System**  
+# 🏪 StoreB-Management System
 
-A **.NET Core** and **SQL**-based web application for managing boutique inventory, sales, and customer data.  
-
----
-
-## **📌 Features**  
-✔ **Inventory Management** – Track products, categories, and stock levels.  
-✔ **Sales & Order Processing** – Record purchases, returns, and customer history.  s.  
-✔ **Customer Management** – Store client details and purchase history.  
-✔ **ySQL Database** – Uses **MySQL** for data persistence.  
+**StoreB-Management** is a **.NET Core & MySQL-powered** web application designed to efficiently manage boutique inventory, sales, and customer relationships.
 
 ---
 
-## **🛠 Technologies Used**  
-- **Backend**: .NET Core 6+ (C#)  
-- **Database**: MySQL  
-- **Frontend**: Windows Forms
+## 🛠 Technology Stack
+
+🔹 **Backend:** .NET Core 6+ (C#)  
+🔹 **Database:** MySQL  
+🔹 **Frontend:** Windows Forms  
 
 ---
 
-## **🚀 Getting Started**  
+## ✅ Prerequisites
 
-### **Prerequisites**  
-- .NET 6+ SDK  
-- MySQL  
-- Visual Studio 2022 / VS Code
-- 
-Visual Studio IDE for development and debugging
+- 📌 **.NET 6+ SDK**
+- 📌 **MySQL**
+- 📌 **Visual Studio 2022** or **VS Code**
 
-### **Setup & Run**  
-1. **Clone the repository**:  
-   ```sh
-   git clone https://github.com/TallOrder99/Boutique-Management-System.git
-   cd Boutique-Management-System
-   ```  
+---
 
-2. **Configure the database**:  
-   - Update `appsettings.json`:  
-     ```json
-     "ConnectionStrings": {
-         "DefaultConnection": "Server=localhost;Database=BoutiqueDb;User Id=sa;Password=yourpassword;"
-     }
-     ```  
+## ⚙️ Installation & Setup
 
-3. **Apply database migrations**:  
-   ```sh
-   dotnet ef database update
-   ```  
+### 📥 1. Clone the Repository
+```sh
+git clone https://github.com/TallOrder99/StoreB-Management.git
+cd StoreB-Management
+```
 
-4. **Run the application**:  
-   ```sh
-   dotnet run
-   ```  
-   - The app will start at: `http://localhost:5000`  
+### 🛠 2. Configure the Database
+Modify `appsettings.json` with your MySQL connection details:
+```json
+"ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Database=StoreBDB;User Id=root;Password=yourpassword;"
+}
+```
 
+### 🔄 3. Apply Migrations
+```sh
+dotnet ef database update
+```
+
+### 🚀 4. Launch the Application
+```sh
+dotnet run
+```
+📌 The application will be accessible at: **http://localhost:5000**
+
+---
+
+## 📌 Features
+
+- **🛒 Inventory Management** – Organize products, categories, and stock levels.
+- **💰 Sales & Transactions** – Track purchases, returns, and customer order history.
+- **👥 Customer Database** – Store client details and purchase records.
+- **💾 MySQL Integration** – Secure and efficient data storage.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+### 💡 Built with ❤️ using .NET & MySQL 🚀
